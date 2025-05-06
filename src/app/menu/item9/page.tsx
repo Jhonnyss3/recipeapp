@@ -1,11 +1,12 @@
 import styles from '../../internal.module.css';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function CafeGeladoPage() {
   return (
     <>
       <header className={styles.header}>
-        <a href="/" className={styles['back-btn']} aria-label="Voltar">&lt;</a>
+      <Link href="/">Voltar</Link>
       </header>
       <main className={styles['center-container']}>
         <section className={styles['content-block']}>
