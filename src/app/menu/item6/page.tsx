@@ -26,7 +26,7 @@ export default function MacchiatoPage() {
             <h1 className={styles.title}>Macchiato</h1>
             <div className={styles.content}>
               <p>
-                O macchiato é um café expresso 'manchado' com um pouco de leite vaporizado, ideal para quem prefere um café intenso com um leve toque cremoso. Veja como preparar:
+                O macchiato é um café expresso &quote;manchado&quote; com um pouco de leite vaporizado, ideal para quem prefere um café intenso com um leve toque cremoso. Veja como preparar:
               </p>
               <ol>
                 <li>Prepare um café expresso (cerca de 30ml).</li>
